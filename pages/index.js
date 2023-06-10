@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <main className="bg-slate-900">
       <div className="container m-auto relative">
-        <nav className="z-50 container m-auto bg-slate-900 h-24 flex items-center drop-shadow fixed left-0 top-0 right-0">
+        <nav className="z-50 px-12 bg-slate-900 h-24 flex items-center drop-shadow fixed left-0 top-0 right-0">
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center cursor-pointer">
               <div>
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
           </div>
         </nav>
-        <section className="relative">
+        <section className="relative mt-12">
           <div className="h-64 text-center flex flex-col items-center justify-center">
             <h1 className="text-4xl text-white mt-24 font-bold">
               Discover your passion and <br /> pathway to your dream career
