@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="bg-slate-900">
       <div className="container m-auto relative">
-        <nav className="container m-auto h-24 flex items-center drop-shadow">
+        <nav className="container m-auto bg-slate-900 h-24 flex items-center drop-shadow fixed left-0 top-0 right-0">
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center cursor-pointer">
               <div>
@@ -67,8 +67,10 @@ export default function Home() {
             </div>
           </div>
         </nav>
-        <section className="relative">
-          <div className="bg-slate-800 h-64 w-full"></div>
+        <section className="">
+          <div className=" h-96 w-full text-center flex items-center justify-center">
+            <h1 className="text-6xl text-amber-600">Banner section</h1>
+          </div>
         </section>
         <section className="">
           <div className="text-center mt-12">
